@@ -2,8 +2,8 @@
 #include <sys/time.h>
 #include <time.h>
 
-const char *REQ_FIFO_PATH = "/home/keni/Projects/fifo-experiment/fifo_req";
-const char *RES_FIFO_PATH = "/home/keni/Projects/fifo-experiment/fifo_res";
+const char *REQ_FIFO_PATH = "/var/run/torq_controller_request";
+const char *RES_FIFO_PATH = "/var/run/torq_controller_response";
 
 void LOG(const char *s) {
 }

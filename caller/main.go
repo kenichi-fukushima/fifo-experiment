@@ -6,8 +6,8 @@ import "os"
 import "time"
 
 const (
-	REQ_FIFO_PATH = "/home/keni/Projects/fifo-experiment/fifo_req"
-	RES_FIFO_PATH = "/home/keni/Projects/fifo-experiment/fifo_res"
+	REQ_FIFO_PATH = "/var/run/torq_controller_request"
+	RES_FIFO_PATH = "/var/run/torq_controller_response"
 )
 
 func TimeString() string {
